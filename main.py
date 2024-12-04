@@ -46,6 +46,8 @@
 '''
 from Animals import *
 from Zoo import Zoo
+import os
+
 
 
 lion1 = Lion("Симба", 10, "Млекопитающее", 190, "Плотоядное", "Мясо")
