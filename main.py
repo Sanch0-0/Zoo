@@ -44,9 +44,10 @@
     Реализуйте систему подсчета статистики, например, сколько
     животных находится в каждой категории, сколько корма требуется в день и т
 '''
+
 from Animals import *
 from Zoo import Zoo
-import os
+
 
 
 
@@ -90,7 +91,7 @@ zoo.add_animals(
     snake1, snake2, snake3,
     moose1, moose2, moose3
 )
-zoo.remove_animals(moose3, penguin1, parrot2)
+zoo.remove_animals(crocodile3, lion2, parrot2)
 zoo.show_total_info()
 zoo.make_all_sounds()
 zoo.feed_all()
